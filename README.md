@@ -97,12 +97,21 @@ RadioButton
        
        class QuestionFragment: Fragment() {
        
-           data class Question(
+           // declaration for pushing data
+           data class Q(
               val text: String,
               val ans: List<String>
            )
            
-           // TODO: 
+           // definition for pushing data
+           // ans mean choices hereby
+           private val qs: MutableList<Q> = MutableLostOf(
+           
+              Q(text = "what is your favorite animal?", ans = ListOf("cat", "dog", "fish")),
+              Q(text = "what is your davorite color?", ans = ListOf("red", "yellow", "blue")),
+              Q(text = "what is your favorite country?", ans = ListOf("USA", "GERMANY", "JP"))
+           
+           )
            
            // TODO: val declaration and defination hereby
            
