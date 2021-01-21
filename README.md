@@ -154,19 +154,16 @@ RadioButton
                             
                             when(checkedId) {
                             
-                               R.id.fisrtAnswerRadioButton -> ansIndex = 0
-                               R.id.secondAnswerRadioButton -> ansIndex = 1
-                               R.id.thirdAnswerRadioButton -> ansIndex = 2
-                               R.id.fourthAnswerRadioButton -> ansIndex = 3
+                               R.id.fisrtAns -> ansIndex = 0
+                               R.id.secondAns -> ansIndex = 1
+                               R.id.thirdAns -> ansIndex = 2
                             
-                            }
-                     
-                     } else {
+                            } else {
                      
                          // TODO: show error answer reminder to user 
                          view.findNavController().naviagate()
                             
-                     }
+                     }   
                      
                }
            
