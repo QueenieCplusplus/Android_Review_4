@@ -116,7 +116,12 @@ RadioButton
            
            )
            
-           // TODO: val declaration and defination hereby
+           lateinit var currentQ: Q
+           lateinit var ans: MutableList<String>
+           private var qIndex = 0
+           
+           // shuffle feature
+           private numQs = Math.min((qs.size + 1)/2, 3)
            
            
            override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
