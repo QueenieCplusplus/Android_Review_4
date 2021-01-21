@@ -158,10 +158,7 @@ RadioButton
                                R.id.secondAns -> ansIndex = 1
                                R.id.thirdAns -> ansIndex = 2
                             
-                            } else {
-                     
-                         // TODO: show error answer reminder to user 
-                         view.findNavController().naviagate()
+                            } 
                             
                      }   
                      
