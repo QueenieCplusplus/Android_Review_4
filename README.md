@@ -94,3 +94,25 @@ RadioButton
        [databinding module]
        import androidx.appcompat.app.AppCompatActivity
        import com.example.android.katesappp.databinding.FragmentGameBinding
+       
+       class QuestionFragment: Fragment() {
+       
+           data class Question(
+              val text: String,
+              val 
+           )
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       }
+
+
+4. today's tip (list)
+
+   https://medium.com/chikuwa-tech-study/kotlin-第5課-集合-107be530cdfa
