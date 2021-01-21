@@ -99,16 +99,26 @@ RadioButton
        
            data class Question(
               val text: String,
-              val 
+              val ans: List<String>
            )
+           
+           // TODO: 
+           
+           // TODO: val declaration and defination hereby
+           
+           
+           override fun onCreateView() {
+           
+           
+           
+               methodCalled()
+           
+           
+           }
        
-       
-       
-       
-       
-       
-       
-       
+           private fun methodCalled(){
+           
+           }
        
        }
 
