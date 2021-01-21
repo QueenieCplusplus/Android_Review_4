@@ -154,10 +154,10 @@ RadioButton
                             
                             when(checkedId) {
                             
-                               R.id.fisrtAnswerRadioButton -> answerIndex = 0
-                               R.id.secondAnswerRadioButton -> answerIndex = 1
-                               R.id.thirdAnswerRadioButton -> answerIndex = 2
-                               R.id.fourthAnswerRadioButton -> answerIndex = 3
+                               R.id.fisrtAnswerRadioButton -> ansIndex = 0
+                               R.id.secondAnswerRadioButton -> ansIndex = 1
+                               R.id.thirdAnswerRadioButton -> ansIndex = 2
+                               R.id.fourthAnswerRadioButton -> ansIndex = 3
                             
                             }
                      
