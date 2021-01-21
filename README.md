@@ -70,4 +70,27 @@ RadioButton
    
 3. code.
 
-       //
+       //QuestionerFragment.kt
+       
+       package com.example.android.katesapp
+       
+       [default modules]
+       import android.os.Bundle
+       import androidx.appcompat.app.AppCompatActivity
+       
+       [fragment inflater modules]
+       import androidx.fragment.app.Fragment
+       
+       [constraint layout inflator modules]
+       import android.view.LayoutInflater
+       
+       [RadioGroup modules]
+       import android.view.View
+       import android.view.ViewGroup
+       
+       [Navigation module]
+       import androidx.navigation.findNavController
+       
+       [databinding module]
+       import androidx.appcompat.app.AppCompatActivity
+       import com.example.android.katesappp.databinding.FragmentGameBinding
