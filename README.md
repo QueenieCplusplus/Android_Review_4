@@ -145,6 +145,8 @@ RadioButton
 
        val lambda = { a:String -> "hi!" }
        
+       (a:String) -> { "hi!" }
+       
        { p1, p2, p3 -> return result }
        
        (Parameters) -> { Body } 
