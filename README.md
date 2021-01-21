@@ -233,3 +233,7 @@ RadioButton
    https://medium.com/@louis383/初探-kotlin-lambda-表達式-cfe8796c9fac
    
    https://stackoverflow.com/questions/42646016/what-does-the-arrow-operator-do-in-kotlin
+   
+  6. today's tip (radio button)
+  
+     https://developer.android.com/guide/topics/ui/controls/radiobutton
