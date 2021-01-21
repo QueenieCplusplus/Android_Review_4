@@ -14,8 +14,8 @@ RadioButton
        
          <data>
           <variable
-            name=""
-            type="om.example.android.katesapp.QuestionFragment"
+            name="game"
+            type="com.example.android.katesapp.QuestionFragment"
           />
          </data>
          
