@@ -67,3 +67,7 @@ RadioButton
 2. setup of properties of the UI layout.
 
    https://github.com/google-developer-training/android-kotlin-fundamentals-apps/blob/master/AndroidTriviaNavigation/app/src/main/res/layout/fragment_game.xml
+   
+3. code.
+
+       //
