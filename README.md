@@ -144,6 +144,17 @@ RadioButton
 5. today's tip (lambda expression the arrow)
 
        val lambda = { a:String -> "hi!" }
+       
+       { p1, p2, p3 -> return result }
+       
+       (Parameters) -> { Body } 
+       
+   Basically, the -> separates the parameters (left-side) from the implementation (right side).
+
+
+where the -> separates parameters and lambda expression body.
+
+The parameters are enclosed in parentheses which is the same way as for methods and the lambda expression body is a block of code enclosed in braces.
 
    https://medium.com/@louis383/初探-kotlin-lambda-表達式-cfe8796c9fac
    
