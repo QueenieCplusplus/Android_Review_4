@@ -147,7 +147,11 @@ RadioButton
            
            }
        
-           private fun methodCalled(){
+           private fun showQ(){
+           
+              currentQ = qs[qIndex]
+              ans = currentQ.ans.toMutableList
+              ans.shuffle()
            
            }
        
