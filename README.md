@@ -21,10 +21,49 @@ RadioButton
          
          <ScrollView>
          
-            <android.constraintlayout.widget.ConstraintLayout>
+            <android.constraintlayout.widget.ConstraintLayout
+              android:id="@+id/frameLayout"
+            >
+            
+              <ImageView/>
+              
+              <TextView/>
+              
+              <RadioGroup
+                  android:id="@+id/questionRadioGroup"
+              >
+              
+                  <RadioButton
+                     android:id="@+id/firstAns"
+                     android:text="@{game.ans[0]}"
+                  />
+                  
+                  <RadioButton
+                      android:id="@+id/secAns"
+                      android:text="@{game.ans[1]}"
+                  />
+                  
+                  <RadioButton
+                      android:id="@+id/thirdAns"
+                      android:text="@{game.ans[2]}"
+                  />
+                  
+              
+              </RadioGroup>
+              
+              <Button
+                  android:id="@+id/submitButton"
+                  android:text="@string/submit_button"
+              />
+              
          
             </android.constraintlayout.widget.ConstraintLayout>
          
          </ScrollView>
       
        </layout>
+
+
+2. setup of properties of the UI layout.
+
+   https://github.com/google-developer-training/android-kotlin-fundamentals-apps/blob/master/AndroidTriviaNavigation/app/src/main/res/layout/fragment_game.xml
