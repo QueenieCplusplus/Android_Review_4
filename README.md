@@ -78,10 +78,10 @@ RadioButton
        import android.os.Bundle
        import androidx.appcompat.app.AppCompatActivity
        
-       [fragment inflater modules]
+       [fragment modules]
        import androidx.fragment.app.Fragment
        
-       [constraint layout inflator modules]
+       [layout inflator modules]
        import android.view.LayoutInflater
        
        [RadioGroup modules]
