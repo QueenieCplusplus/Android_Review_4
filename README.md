@@ -142,6 +142,32 @@ RadioButton
                // TODO: submit button
                binding.submitButton.setOnClickListener {
                
+                 //lambda
+                 view: View -> 
+                     val checkedId = binding.questionRadioGroup.checkedRadioButtonId
+                     
+                     // checksom
+                     if (-1 != checkedId) {
+                     
+                            // app's choices push
+                            var ansIndex = 0
+                            
+                            when(checkedId) {
+                            
+                               R.id.fisrtAnswerRadioButton -> answerIndex = 0
+                               R.id.secondAnswerRadioButton -> answerIndex = 1
+                               R.id.thirdAnswerRadioButton -> answerIndex = 2
+                               R.id.fourthAnswerRadioButton -> answerIndex = 3
+                            
+                            }
+                     
+                     } else {
+                     
+                         // TODO: show error answer reminder to user 
+                         view.findNavController().naviagate()
+                            
+                     }
+                     
                }
            
                return binding.root
