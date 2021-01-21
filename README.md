@@ -139,6 +139,8 @@ RadioButton
 
 4. today's tip ( kotlin 的 list 類似 Java 的 ArrayList )
 
+   集合的容量比陣列方便，因為無需定義容量。
+
    https://medium.com/chikuwa-tech-study/kotlin-第5課-集合-107be530cdfa
    
 5. today's tip (lambda expression the arrow)
