@@ -160,6 +160,28 @@ RadioButton
                             
                             } 
                             
+                            // other inspection process
+                            // TODO
+                            
+                            if (ans[ansIndex] == currentQ.ans[x]){
+                               
+                               qInex++
+                                
+                                // advance to the next question
+                                currentQ = qs[qIndex]
+                                showQ()
+                                binding.invaliateAll()
+                                
+                                
+                               
+                            
+                            } else {
+                            
+                                view.findNavController()
+                                .navigate()
+                            
+                            }
+                            
                      }   
                      
                }
