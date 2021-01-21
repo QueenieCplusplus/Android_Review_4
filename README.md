@@ -14,7 +14,7 @@ RadioButton
        
          <data>
           <variable
-            name="game"
+            name="quesitoner" #the instance of class called QuestionFragment
             type="com.example.android.katesapp.QuestionFragment"
           />
          </data>
@@ -35,17 +35,17 @@ RadioButton
               
                   <RadioButton
                      android:id="@+id/firstAns"
-                     android:text="@{game.ans[0]}"
+                     android:text="@{Quesitoner.ans[0]}"
                   />
                   
                   <RadioButton
                       android:id="@+id/secAns"
-                      android:text="@{game.ans[1]}"
+                      android:text="@{Quesitoner.ans[1]}"
                   />
                   
                   <RadioButton
                       android:id="@+id/thirdAns"
-                      android:text="@{game.ans[2]}"
+                      android:text="@{Quesitoner.ans[2]}"
                   />
                   
               
