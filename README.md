@@ -93,7 +93,7 @@ RadioButton
        
        [databinding module]
        import androidx.appcompat.app.AppCompatActivity
-       import com.example.android.katesappp.databinding.FragmentGameBinding
+       import com.example.android.katesappp.databinding.FragmentQuestionBinding
        
        class QuestionFragment: Fragment() {
        
@@ -109,9 +109,25 @@ RadioButton
            
            override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
            
-           
-           
+               val binding = DataBindingUtil.inflate<FragmentQuestionBinding>(
+                     inflater, R.layout.fragment_quesiton, container, false
+               )
+               
                methodCalled()
+               
+               
+               // bind the class to the layout
+               // see data variable name in UI layout
+               binding.question = this
+               
+               
+               binding.submitButton.setOnClickListener {
+               
+               }
+           
+           
+           
+          
            
            
            }
@@ -126,3 +142,7 @@ RadioButton
 4. today's tip (list)
 
    https://medium.com/chikuwa-tech-study/kotlin-第5課-集合-107be530cdfa
+   
+5. today's tip (lambda)
+
+   https://medium.com/@louis383/初探-kotlin-lambda-表達式-cfe8796c9fac
