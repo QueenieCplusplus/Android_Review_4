@@ -130,7 +130,8 @@ RadioButton
                      inflater, R.layout.fragment_quesiton, container, false
                )
                
-               methodCalled()
+               //methodCalled()
+               randomQ()
                
                
                // bind the class to the layout
@@ -145,6 +146,14 @@ RadioButton
            
         
            
+           }
+           
+           private fun randomQ(){
+           
+              qs.shuffle
+              qIndex = 0
+              showQ()
+              
            }
        
            private fun showQ(){
