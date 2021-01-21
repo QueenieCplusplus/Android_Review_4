@@ -27,7 +27,10 @@ RadioButton
             
               <ImageView/>
               
-              <TextView/>
+              <TextView
+                  android:id="@+id/qTest"
+                  android:text="@{qustioner.currentQ.text}"
+              />
               
               <RadioGroup
                   android:id="@+id/questionRadioGroup"
