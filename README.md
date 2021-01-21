@@ -143,6 +143,8 @@ RadioButton
 
    https://medium.com/chikuwa-tech-study/kotlin-第5課-集合-107be530cdfa
    
-5. today's tip (lambda)
+5. today's tip (lambda expression the arrow)
 
    https://medium.com/@louis383/初探-kotlin-lambda-表達式-cfe8796c9fac
+   
+   https://stackoverflow.com/questions/42646016/what-does-the-arrow-operator-do-in-kotlin
