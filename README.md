@@ -137,7 +137,7 @@ RadioButton
        }
 
 
-4. today's tip (list)
+4. today's tip ( kotlin 的 list 類似 Java 的 ArrayList )
 
    https://medium.com/chikuwa-tech-study/kotlin-第5課-集合-107be530cdfa
    
