@@ -121,14 +121,12 @@ RadioButton
                binding.question = this
                
                
+               // TODO: submit button
                binding.submitButton.setOnClickListener {
                
                }
            
-           
-           
-          
-           
+        
            
            }
        
